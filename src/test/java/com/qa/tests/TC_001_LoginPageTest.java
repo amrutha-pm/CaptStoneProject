@@ -32,6 +32,43 @@ public class TC_001_LoginPageTest extends ProjectSpecificationMethods {
         Assert.assertTrue(isVisible, "Login button should be visible on the login page.");
         System.out.println("✅ Login Button is visible");
     }
+    
+    
+    
+    @Test(dataProvider = "readData")
+    public void verifyLoginFunctionality(String username, String password, String testType, String expectedMessage) throws InterruptedException {
+        // Enter username and password from the data provider
+    	LoginPage loginPage = new LoginPage(driver);
+
+    	loginPage.enterUsername(username);
+        loginPage.enterPassword(password);
+        Thread.sleep(2000); // Add a small delay for actions to complete
+        loginPage.clickLoginButton();
+
+        // Capture the actual page title after login attempt
+        String actualTitle = driver.getTitle();
+        String pageSource = driver.getPageSource();
+
+        // Perform assertions based on the test type and expected message
+        if (testType.equalsIgnoreCase("Valid data")) {
+            // Valid login scenario
+            Assert.assertEquals(actualTitle, expectedMessage, "Test case failed: Login attempt with valid data failed. Actual title: " + actualTitle);
+            System.out.println("Login successful for username: " + username); // Log to console
+        } else if (testType.equalsIgnoreCase("Invalid username and password")) {
+            // Invalid credentials scenario
+            Assert.assertTrue(pageSource.contains(expectedMessage), "Test case failed: Expected error message not found for invalid credentials.");
+            System.out.println("Invalid login attempt for username: " + username); // Log to console
+        } else if (testType.equalsIgnoreCase("EmptyPassword")) {
+            // Empty password scenario
+            Assert.assertTrue(pageSource.contains(expectedMessage), "Test case failed: Expected error message not found for empty password.");
+            System.out.println("Empty password attempt for username: " + username); // Log to console
+        } else if (testType.equalsIgnoreCase("EmptyUsername")) {
+            // Empty username scenario
+            Assert.assertTrue(pageSource.contains(expectedMessage), "Test case failed: Expected error message not found for empty username.");
+            System.out.println("Empty username attempt with password: " + password); // Log to console
+        }
+    }
+
 
  /*   @Test
     public void verifyLoginFunctionality() throws InterruptedException {
@@ -45,7 +82,7 @@ public class TC_001_LoginPageTest extends ProjectSpecificationMethods {
     }
 */
     
-    @Test(dataProvider = "readData")
+ /*   @Test(dataProvider = "readData")
     public void verifyLoginFunctionality(String username, String password, String testType, String expectedMessage) throws InterruptedException {
     LoginPage  loginPage = new LoginPage(driver);
 
@@ -73,4 +110,5 @@ public class TC_001_LoginPageTest extends ProjectSpecificationMethods {
             Assert.assertTrue(driver.getPageSource().contains(expectedMessage), "Error message for empty username mismatch.");
         }
     }
+    */
 }
