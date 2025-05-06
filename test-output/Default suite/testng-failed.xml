@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.tests.TC_003_SearchHotelTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="verifySearchHotelMenuNaviagtion"/>
+          <include name="setup"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+          <include name="verifyMandatoryFieldAsterisks"/>
+        </methods>
+      </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

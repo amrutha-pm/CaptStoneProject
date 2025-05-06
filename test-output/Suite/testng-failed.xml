@@ -8,17 +8,18 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://adactinhotelapp.com/"/>
     <classes>
-      <class name="com.qa.tests.TC_001_LoginPageTest">
+      <class name="com.qa.tests.TC_003_SearchHotelTest">
         <methods>
           <include name="testDetails"/>
           <include name="reportClose"/>
-          <include name="verifyLoginFunctionality" invocation-numbers="0 1 2 3"/>
-          <include name="launchingAndLoadingURL"/>
+          <include name="setUp"/>
           <include name="setup"/>
+          <include name="verifyErrorForPastCheckOutDate"/>
+          <include name="launchingAndLoadingURL"/>
           <include name="browserClose"/>
           <include name="reportInitialization"/>
         </methods>
-      </class> <!-- com.qa.tests.TC_001_LoginPageTest -->
+      </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -28,6 +28,13 @@ public class LoginPage extends ProjectSpecificationMethods{
     WebElement loginButton;
 
     
+    // ✅ Reusable login method
+    public LoginPage login(String username, String password) {
+        enterUsername(username);
+        enterPassword(password);
+        clickLoginButton();
+		return null;
+    }
   
   
 
@@ -53,4 +60,7 @@ public class LoginPage extends ProjectSpecificationMethods{
     public boolean isLoginButtonVisible() {
         return loginButton.isDisplayed();
     }
+    
+    
+    
 }
