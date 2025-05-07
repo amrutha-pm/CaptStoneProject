@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name = "com.qa.utils.Listener"/>
+</listeners>
+
+  <test  name="Test">
+  
+  <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://adactinhotelapp.com/"/>
+    
+    <classes>
+      <class name="com.qa.tests.TC_001_LoginPageTest"/>
+      <class name="com.qa.tests.TC_002_SearchHotelHomePage"/>
+      <class name="com.qa.tests.TC_003_SearchHotelTest"/>
+      <class name="com.qa.tests.TC_004_SelectHotelPageTest"/>
+      <class name="com.qa.tests.TC_005_BookHotelPageTest"/>
+      <class name="com.qa.tests.TC_006_BookingConfirmationTest"/>
+      <class name="com.qa.tests.TC_007_BookedItenaryTest"/>
+      <class name="com.qa.tests.TC_008_LogoutTest"/>
+
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

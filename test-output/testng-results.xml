@@ -1,57 +1,432 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-06T18:03:32 IST" name="Suite" finished-at="2025-05-06T18:03:42 IST" duration-ms="9966">
+  <suite started-at="2025-05-07T09:57:54 IST" name="Default suite" finished-at="2025-05-07T09:57:55 IST" duration-ms="830">
     <groups>
     </groups>
-    <test started-at="2025-05-06T18:03:32 IST" name="Test" finished-at="2025-05-06T18:03:42 IST" duration-ms="9966">
-      <class name="com.qa.tests.TC_003_SearchHotelTest">
-        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:32 IST" name="reportInitialization" finished-at="2025-05-06T18:03:32 IST" duration-ms="230" status="PASS">
+    <test started-at="2025-05-07T09:57:54 IST" name="Default test" finished-at="2025-05-07T09:57:55 IST" duration-ms="830">
+      <class name="com.qa.tests.TC_001_LoginPageTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="reportInitialization" finished-at="2025-05-07T09:57:54 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitialization -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:32 IST" name="setup" finished-at="2025-05-06T18:03:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="setup" finished-at="2025-05-07T09:57:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:32 IST" name="testDetails" finished-at="2025-05-06T18:03:32 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="testDetails" finished-at="2025-05-07T09:57:54 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:32 IST" name="launchingAndLoadingURL" finished-at="2025-05-06T18:03:38 IST" duration-ms="5449" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="launchingAndLoadingURL" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1746592074856" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginButtonVisibility()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="verifyLoginButtonVisibility" finished-at="2025-05-07T09:57:54 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonVisibility -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:54 IST" name="browserClose" finished-at="2025-05-07T09:57:54 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:57:55 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[amruthapm]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://adactinhotelapp.com/]]>
+                <![CDATA[Google123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid data]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AdactIn.com - Search Hotel:Login successfull]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchingAndLoadingURL -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:38 IST" name="setUp" finished-at="2025-05-06T18:03:39 IST" duration-ms="1302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="VerifyToSelectValidCheckInDate()[pri:19, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:39 IST" name="VerifyToSelectValidCheckInDate" finished-at="2025-05-06T18:03:42 IST" duration-ms="2956" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyToSelectValidCheckInDate -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:42 IST" name="browserClose" finished-at="2025-05-06T18:03:42 IST" duration-ms="208" status="PASS">
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="browserClose" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="reportClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@ff684e1]" started-at="2025-05-06T18:03:43 IST" name="reportClose" finished-at="2025-05-06T18:03:43 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234ffff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[
+Invalid Login details or Your Password might have expired.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="browserClose" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amruthapm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Password
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="browserClose" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Username
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method launchingAndLoadingURL but has not been marked @Optional or defined
+in C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1788544126\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="browserClose" finished-at="2025-05-07T09:57:55 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@63a270c9]" started-at="2025-05-07T09:57:55 IST" name="reportClose" finished-at="2025-05-07T09:57:56 IST" duration-ms="357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
-      </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.qa.tests.TC_001_LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

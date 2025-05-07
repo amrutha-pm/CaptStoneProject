@@ -413,8 +413,10 @@ public WebElement getCheckInDateField() {
 }
 
 
-	public void enterCheckInDate(String validDate) {
-	    checkInDateField.clear();               // Clear any existing value
+	public void enterCheckInDate(String validDate) throws InterruptedException {
+	    checkInDateField.clear();   
+	    // Clear any existing value
+	    Thread.sleep(1000);
 	    checkInDateField.sendKeys(validDate);   // Enter the new date
 	}
 
@@ -444,11 +446,14 @@ public WebElement getCheckInDateField() {
 
     
 
-    public void enterCheckOutDate(String date) {
+    public void enterCheckOutDate(String date) throws InterruptedException {
         checkOutDateField.clear();
+        Thread.sleep(1000);
         checkOutDateField.sendKeys(date);
     }
 
+
+    
     public void selectAdultsPerRoom(String value) {
         new Select(adult_per_room).selectByVisibleText(value);
     }
@@ -478,4 +483,77 @@ public WebElement getCheckInDateField() {
     public WebElement getCheckOutDateField() {
         return checkOutDateField;
     }
+
+    @FindBy(id = "hotels")
+    WebElement hotelsDropdown;
+    @FindBy(id = "room_nos")
+    WebElement noRoomsDropdown;
+
+    @FindBy(id = "adult_room")
+    WebElement adultsDropdown;
+    @FindBy(id = "child_room")
+    WebElement childrensDropdown;
+
+  
+    // Method to enter search details
+    public void enterSearchDetails(String location, String hotels, String roomType, String noRooms,
+                                   String checkInDate, String checkOutDate, String adults, String childrens) throws InterruptedException {
+
+    	datepick_checkin.clear();
+    	datepick_checkout.clear();
+        if (location != null && !location.trim().isEmpty()) {
+            new Select(locationDropdown).selectByVisibleText(location);
+        }
+
+        if (hotels != null && !hotels.trim().isEmpty()) {
+            new Select(hotelsDropdown).selectByVisibleText(hotels);
+        }
+
+        if (roomType != null && !roomType.trim().isEmpty()) {
+            new Select(roomTypeDropdown).selectByVisibleText(roomType);
+        }
+
+        if (noRooms != null && !noRooms.trim().isEmpty()) {
+            new Select(noRoomsDropdown).selectByVisibleText(noRooms);
+        }
+
+        if (checkInDate != null && !checkInDate.trim().isEmpty()) {
+            enterCheckInDate(checkInDate);
+        }
+
+        if (checkOutDate != null && !checkOutDate.trim().isEmpty()) {
+            enterCheckOutDate(checkOutDate);
+        }
+
+        if (adults != null && !adults.trim().isEmpty()) {
+            new Select(adultsDropdown).selectByVisibleText(adults);
+        }
+
+        if (childrens != null && !childrens.trim().isEmpty()) {
+            new Select(childrensDropdown).selectByVisibleText(childrens);
+        }
+    }
+
+	public void clickReset() {
+		// TODO Auto-generated method stub
+		ResetButton.click();
+	}
+	
+
+  /*  // Reusable methods to enter dates
+    public void enterCheckInDate(String date) {   //already mentioned above
+        checkInDateField.clear();
+        checkInDateField.sendKeys(date);
+    }
+
+  /*  public void enterCheckOutDate(String date) {  //already mentioned above
+        checkOutDateField.clear();
+        checkOutDateField.sendKeys(date);
+    }*/
+
+/*    // Submit the search form
+    public void clickSearchButton() {  //already mentioned above
+        searchButton.click();
+    } */
+    
 }

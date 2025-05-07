@@ -3,18 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.TC_003_SearchHotelTest">
+      <class name="com.qa.tests.TC_001_LoginPageTest">
         <methods>
           <include name="testDetails"/>
           <include name="reportClose"/>
-          <include name="verifySearchHotelMenuNaviagtion"/>
-          <include name="setup"/>
+          <include name="verifyLoginFunctionality"/>
+          <include name="verifyLoginButtonVisibility"/>
           <include name="launchingAndLoadingURL"/>
+          <include name="setup"/>
           <include name="browserClose"/>
           <include name="reportInitialization"/>
-          <include name="verifyMandatoryFieldAsterisks"/>
         </methods>
-      </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
+      </class> <!-- com.qa.tests.TC_001_LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

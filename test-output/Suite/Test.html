@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>31/11/1</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 06 18:03:32 IST 2025</td>
+<td>Started on:</td><td>Wed May 07 09:17:22 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9966 ms)</td>
+<tr><td>Total time:</td><td>415 seconds (415638 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,651 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.TC_008_LogoutTest.testDetails()'><b>testDetails</b><br>Test class: com.qa.tests.TC_008_LogoutTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:118)
+	at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+	at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1522549999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1522549999'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:118)
+	at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+	at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.TC_008_LogoutTest@6b98a075</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.TC_008_LogoutTest.launchingAndLoadingURL()'><b>launchingAndLoadingURL</b><br>Test class: com.qa.tests.TC_008_LogoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_008_LogoutTest@6b98a075</td></tr>
+<tr>
+<td title='com.qa.tests.TC_008_LogoutTest.browserClose()'><b>browserClose</b><br>Test class: com.qa.tests.TC_008_LogoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_008_LogoutTest@6b98a075</td></tr>
+<tr>
+<td title='com.qa.tests.TC_008_LogoutTest.setUp()'><b>setUp</b><br>Test class: com.qa.tests.TC_008_LogoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_008_LogoutTest@6b98a075</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality()'><b>verifyLoginFunctionality</b><br>Test class: com.qa.tests.TC_001_LoginPageTest<br>Parameters: , India123, EmptyUsername, Enter Username
+</td>
+<td><div><pre>java.lang.AssertionError: Test case failed: Expected error message not found for empty username. expected [true] but found [false]
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1626147741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1626147741'><pre>java.lang.AssertionError: Test case failed: Expected error message not found for empty username. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.tests.TC_001_LoginPageTest@3fb6cf60</td></tr>
+<tr>
+<td title='com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality()'><b>verifyLoginFunctionality</b><br>Test class: com.qa.tests.TC_001_LoginPageTest<br>Parameters: priya, 1234ffff, Invalid username and password, 
+Invalid Login details or Your Password might have expired.</td>
+<td><div><pre>java.lang.AssertionError: Test case failed: Expected error message not found for invalid credentials. expected [true] but found [false]
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18529644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace18529644'><pre>java.lang.AssertionError: Test case failed: Expected error message not found for invalid credentials. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.tests.TC_001_LoginPageTest@3fb6cf60</td></tr>
+<tr>
+<td title='com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality()'><b>verifyLoginFunctionality</b><br>Test class: com.qa.tests.TC_001_LoginPageTest<br>Parameters: amruthapm, , EmptyPassword, Enter Password
+</td>
+<td><div><pre>java.lang.AssertionError: Test case failed: Expected error message not found for empty password. expected [true] but found [false]
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace422266669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace422266669'><pre>java.lang.AssertionError: Test case failed: Expected error message not found for empty password. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.tests.TC_001_LoginPageTest@3fb6cf60</td></tr>
+<tr>
+<td title='com.qa.tests.TC_001_SearchHotelHomePage.verifySearchHotelMenuDisplayedAfterLogin()'><b>verifySearchHotelMenuDisplayedAfterLogin</b><br>Test class: com.qa.tests.TC_001_SearchHotelHomePage</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#username&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6139453ec81712a3068ceec4c8fd651f, findElement {value=username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63481/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6139453ec81712a3068ceec4c8fd651f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at com.qa.pages.LoginPage.enterUsername(LoginPage.java:44)
+	at com.qa.tests.TC_001_SearchHotelHomePage.verifySearchHotelMenuDisplayedAfterLogin(TC_001_SearchHotelHomePage.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace929787261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace929787261'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#username&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6139453ec81712a3068ceec4c8fd651f, findElement {value=username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63481/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6139453ec81712a3068ceec4c8fd651f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at com.qa.pages.LoginPage.enterUsername(LoginPage.java:44)
+	at com.qa.tests.TC_001_SearchHotelHomePage.verifySearchHotelMenuDisplayedAfterLogin(TC_001_SearchHotelHomePage.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>50</td>
+<td>com.qa.tests.TC_001_SearchHotelHomePage@349c1daf</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.selectRoomTypeAndVerify()'><b>selectRoomTypeAndVerify</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td><div><pre>java.lang.AssertionError: ❌ Failed to select &apos;Deluxe&apos; room type. expected [Deluxe] but found [Super Deluxe]
+	at com.qa.tests.TC_003_SearchHotelTest.selectRoomTypeAndVerify(TC_003_SearchHotelTest.java:449)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace514805367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace514805367'><pre>java.lang.AssertionError: ❌ Failed to select &apos;Deluxe&apos; room type. expected [Deluxe] but found [Super Deluxe]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.qa.tests.TC_003_SearchHotelTest.selectRoomTypeAndVerify(TC_003_SearchHotelTest.java:449)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation()'><b>verifySearchHotelFormRedirectionAndValidation</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: , Hotel Creek, Deluxe, , , , , 1 - One, WithoutMandatoryFields
+, Please Select a Location</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: error-message (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62609/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d8d59f10e80004c3635423a8215e5ed
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation(TC_003_SearchHotelTest.java:887)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1106840336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1106840336'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: error-message (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62609}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62609/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d8d59f10e80004c3635423a8215e5ed
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation(TC_003_SearchHotelTest.java:887)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>50</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyMandatoryFieldAsterisks()'><b>verifyMandatoryFieldAsterisks</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td><div><pre>java.lang.AssertionError: ❌ &apos;Adults per Room&apos; field is not marked as mandatory. expected [true] but found [false]
+	at com.qa.tests.TC_003_SearchHotelTest.verifyMandatoryFieldAsterisks(TC_003_SearchHotelTest.java:218)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1396606983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1396606983'><pre>java.lang.AssertionError: ❌ &apos;Adults per Room&apos; field is not marked as mandatory. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.qa.tests.TC_003_SearchHotelTest.verifyMandatoryFieldAsterisks(TC_003_SearchHotelTest.java:218)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1()'><b>verifySearchHotelFormValidDataRedirection1</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: Sydney, Hotel Sunshine, Standard, 2 - Two, 16/05/2025, 5/19/25, 2 - Two, 1 - One, Valid Data, Select Hotel</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;SelectHotel&quot;. Current url: &quot;https://adactinhotelapp.com/SearchHotel.php&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62713/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f0d4c83aab5cd5b1dd3f490a84a62de
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1(TC_003_SearchHotelTest.java:781)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace656476731", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656476731'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;SelectHotel&quot;. Current url: &quot;https://adactinhotelapp.com/SearchHotel.php&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62713/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f0d4c83aab5cd5b1dd3f490a84a62de
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1(TC_003_SearchHotelTest.java:781)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.VerifyTOselectPastCheckInDate()'><b>VerifyTOselectPastCheckInDate</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td><div><pre>java.lang.AssertionError: Test failed: User was redirected even with an invalid check-in date.
+	at com.qa.tests.TC_003_SearchHotelTest.VerifyTOselectPastCheckInDate(TC_003_SearchHotelTest.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1736997874", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1736997874'><pre>java.lang.AssertionError: Test failed: User was redirected even with an invalid check-in date.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.qa.tests.TC_003_SearchHotelTest.VerifyTOselectPastCheckInDate(TC_003_SearchHotelTest.java:580)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_006_BookingConfirmationTest.verifyMyItineraryNavigation()'><b>verifyMyItineraryNavigation</b><br>Test class: com.qa.tests.TC_006_BookingConfirmationTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#my_itinerary&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a59d1063ab84f0d3b2749d0b08946552, findElement {value=my_itinerary, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62322/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a59d1063ab84f0d3b2749d0b08946552
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.qa.pages.BookingConfirmationPage.clickMyItenaryButton(BookingConfirmationPage.java:35)
+	at com.qa.tests.TC_006_BookingConfirmationTest.verifyMyItineraryNavigation(TC_006_BookingConfirmationTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1980698753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1980698753'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#my_itinerary&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a59d1063ab84f0d3b2749d0b08946552, findElement {value=my_itinerary, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62322}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62322/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a59d1063ab84f0d3b2749d0b08946552
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.qa.pages.BookingConfirmationPage.clickMyItenaryButton(BookingConfirmationPage.java:35)
+	at com.qa.tests.TC_006_BookingConfirmationTest.verifyMyItineraryNavigation(TC_006_BookingConfirmationTest.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>50</td>
+<td>com.qa.tests.TC_006_BookingConfirmationTest@544820b7</td></tr>
+<tr>
+<td title='com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality()'><b>verifyLoginFunctionality</b><br>Test class: com.qa.tests.TC_001_LoginPageTest<br>Parameters: amruthapm, Google123, Valid data, AdactIn.com - Search Hotel:Login successfull</td>
+<td><div><pre>java.lang.AssertionError: Test case failed: Login attempt with valid data failed. Actual title: Adactin.com - Search Hotel expected [AdactIn.com - Search Hotel:Login successfull] but found [Adactin.com - Search Hotel]
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1583992583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1583992583'><pre>java.lang.AssertionError: Test case failed: Login attempt with valid data failed. Actual title: Adactin.com - Search Hotel expected [AdactIn.com - Search Hotel:Login successfull] but found [Adactin.com - Search Hotel]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>2</td>
+<td>com.qa.tests.TC_001_LoginPageTest@3fb6cf60</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +721,213 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.tests.TC_003_SearchHotelTest.VerifyToSelectValidCheckInDate()'><b>VerifyToSelectValidCheckInDate</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td title='com.qa.tests.TC_003_SearchHotelTest.selectValidCheckInDate()'><b>selectValidCheckInDate</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1()'><b>verifySearchHotelFormValidDataRedirection1</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: , Hotel Creek, Deluxe, , , , , 1 - One, WithoutMandatoryFields
+, Please Select a Location</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyHotelDropdownOptions()'><b>verifyHotelDropdownOptions</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1()'><b>verifySearchHotelFormValidDataRedirection1</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: , , , , , , , , Empty Fields, Please Select a Location</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation()'><b>verifySearchHotelFormRedirectionAndValidation</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: , , , , , , , , Empty Fields, Please Select a Location</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_004_SelectHotelPageTest.VerifyBookingFailsWithoutSelectingHotelRadioButton()'><b>VerifyBookingFailsWithoutSelectingHotelRadioButton</b><br>Test class: com.qa.tests.TC_004_SelectHotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_004_SelectHotelPageTest@3bd418e4</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation()'><b>verifySearchHotelFormRedirectionAndValidation</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: Brisbane, , , 3 - Three, 21/05/2025, 5/28/25, 2 - Two, , MadatoryFields Alone, Select Hotel</td>
 <td></td>
 <td>2</td>
-<td>com.qa.tests.TC_003_SearchHotelTest@ff684e1</td></tr>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation()'><b>verifySearchHotelFormRedirectionAndValidation</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: Sydney, Hotel Sunshine, Standard, 2 - Two, 16/05/2025, 5/19/25, 2 - Two, 1 - One, Valid Data, Select Hotel</td>
+<td></td>
+<td>9</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyLocationDropdownPlaceholderValue()'><b>verifyLocationDropdownPlaceholderValue</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelMenuNaviagtion()'><b>verifySearchHotelMenuNaviagtion</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1()'><b>verifySearchHotelFormValidDataRedirection1</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest<br>Parameters: Brisbane, , , 3 - Three, 21/05/2025, 5/28/25, 2 - Two, , MadatoryFields Alone, Select Hotel</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_004_SelectHotelPageTest.VerifyHotelSelectionWithPrefilledData()'><b>VerifyHotelSelectionWithPrefilledData</b><br>Test class: com.qa.tests.TC_004_SelectHotelPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.tests.TC_004_SelectHotelPageTest@3bd418e4</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormElementsPresence()'><b>verifySearchHotelFormElementsPresence</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_004_SelectHotelPageTest.verifyHotelSelectionFunctionality()'><b>verifyHotelSelectionFunctionality</b><br>Test class: com.qa.tests.TC_004_SelectHotelPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.TC_004_SelectHotelPageTest@3bd418e4</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyHotelDropdownOptionsDisplayAndSelectability()'><b>verifyHotelDropdownOptionsDisplayAndSelectability</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_005_BookHotelPageTest.verifySuccessfulBookingWithValidData()'><b>verifySuccessfulBookingWithValidData</b><br>Test class: com.qa.tests.TC_005_BookHotelPageTest<br>Parameters: John, deo, 1234 IIT Madras, chennai, India, 1234567891234560, Visa, January, 2026, 123</td>
+<td></td>
+<td>11</td>
+<td>com.qa.tests.TC_005_BookHotelPageTest@6ad59d92</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.VerifyToSelectValidCheckInDate()'><b>VerifyToSelectValidCheckInDate</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_006_BookingConfirmationTest.verifyOrderIdgeneratedOrNot()'><b>verifyOrderIdgeneratedOrNot</b><br>Test class: com.qa.tests.TC_006_BookingConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_006_BookingConfirmationTest@544820b7</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyCheckInDateDisplayedClickedAndHeld()'><b>verifyCheckInDateDisplayedClickedAndHeld</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySelectedRoomTypeDropdown()'><b>verifySelectedRoomTypeDropdown</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyTotalNumberOfHotelsInDropdown()'><b>verifyTotalNumberOfHotelsInDropdown</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_004_SelectHotelPageTest.VerifyRedirectionToSelectHotelPage()'><b>VerifyRedirectionToSelectHotelPage</b><br>Test class: com.qa.tests.TC_004_SelectHotelPageTest<br>Parameters: Sydney, Hotel Sunshine, Standard, 2 - Two, 16/05/2025, 19-5-2025, 2 - Two, 1 - One, Valid Data, https://adactinhotelapp.com/SelectHotel.php</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.TC_004_SelectHotelPageTest@3bd418e4</td></tr>
+<tr>
+<td title='com.qa.tests.TC_001_LoginPageTest.verifyLoginButtonVisibility()'><b>verifyLoginButtonVisibility</b><br>Test class: com.qa.tests.TC_001_LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_001_LoginPageTest@3fb6cf60</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyFieldDefaultValues()'><b>verifyFieldDefaultValues</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.testLocationDropdown()'><b>testLocationDropdown</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyAllRoomTypesListed()'><b>verifyAllRoomTypesListed</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyErrorForPastCheckOutDate()'><b>verifyErrorForPastCheckOutDate</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyRoomTypeDropdownIsPresent()'><b>verifyRoomTypeDropdownIsPresent</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.VerifyResetButtonFunctionality()'><b>VerifyResetButtonFunctionality</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifyCheckOutDateDisplayedClickedAndHeld()'><b>verifyCheckOutDateDisplayedClickedAndHeld</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+<tr>
+<td title='com.qa.tests.TC_003_SearchHotelTest.verifySelectedHotelValue()'><b>verifySelectedHotelValue</b><br>Test class: com.qa.tests.TC_003_SearchHotelTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.tests.TC_003_SearchHotelTest@37ddb69a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.tests.TC_008_LogoutTest.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: com.qa.tests.TC_008_LogoutTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:118)
+	at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+	at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace229483317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace229483317'><pre>java.lang.IllegalArgumentException: Test name must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:97)
+	at com.aventstack.extentreports.ExtentTest.&lt;init&gt;(ExtentTest.java:118)
+	at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+	at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.tests.TC_008_LogoutTest@6b98a075</td></tr>
 </table><p>
 </body>
 </html>

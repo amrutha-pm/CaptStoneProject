@@ -8,18 +8,68 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="http://adactinhotelapp.com/"/>
     <classes>
-      <class name="com.qa.tests.TC_003_SearchHotelTest">
+      <class name="com.qa.tests.TC_001_LoginPageTest">
         <methods>
           <include name="testDetails"/>
           <include name="reportClose"/>
-          <include name="setUp"/>
+          <include name="verifyLoginFunctionality" invocation-numbers="0 1 2 3"/>
           <include name="setup"/>
-          <include name="verifyErrorForPastCheckOutDate"/>
           <include name="launchingAndLoadingURL"/>
           <include name="browserClose"/>
           <include name="reportInitialization"/>
         </methods>
+      </class> <!-- com.qa.tests.TC_001_LoginPageTest -->
+      <class name="com.qa.tests.TC_003_SearchHotelTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="selectRoomTypeAndVerify"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+          <include name="verifyMandatoryFieldAsterisks"/>
+          <include name="VerifyTOselectPastCheckInDate"/>
+          <include name="verifySearchHotelFormRedirectionAndValidation" invocation-numbers="2"/>
+          <include name="verifySearchHotelFormValidDataRedirection1" invocation-numbers="0"/>
+        </methods>
       </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
+      <class name="com.qa.tests.TC_001_SearchHotelHomePage">
+        <methods>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="verifySearchHotelMenuDisplayedAfterLogin"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+        </methods>
+      </class> <!-- com.qa.tests.TC_001_SearchHotelHomePage -->
+      <class name="com.qa.tests.TC_006_BookingConfirmationTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="verifyMyItineraryNavigation"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+        </methods>
+      </class> <!-- com.qa.tests.TC_006_BookingConfirmationTest -->
+      <class name="com.qa.tests.TC_008_LogoutTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="setUp"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+          <include name="verifyLogoutFunctionality"/>
+        </methods>
+      </class> <!-- com.qa.tests.TC_008_LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

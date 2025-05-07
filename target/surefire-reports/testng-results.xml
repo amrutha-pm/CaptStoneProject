@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="30" failed="12" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-07T09:39:44 IST" name="Suite" finished-at="2025-05-07T09:47:28 IST" duration-ms="463831">
+    <groups>
+    </groups>
+    <test started-at="2025-05-07T09:39:44 IST" name="Test" finished-at="2025-05-07T09:47:28 IST" duration-ms="463831">
+      <class name="com.qa.tests.TC_008_LogoutTest">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_008_LogoutTest@6c45ee6e]" started-at="2025-05-07T09:47:28 IST" name="testDetails" finished-at="2025-05-07T09:47:28 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_008_LogoutTest@6c45ee6e]" started-at="2025-05-07T09:47:28 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:47:28 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_008_LogoutTest@6c45ee6e]" started-at="2025-05-07T09:47:28 IST" name="setUp" finished-at="2025-05-07T09:47:28 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutFunctionality()[pri:0, instance:com.qa.tests.TC_008_LogoutTest@6c45ee6e]" started-at="2025-05-07T09:47:28 IST" name="verifyLogoutFunctionality" finished-at="2025-05-07T09:47:28 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:97)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:118)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at com.qa.base.ProjectSpecificationMethods.testDetails(ProjectSpecificationMethods.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_008_LogoutTest@6c45ee6e]" started-at="2025-05-07T09:47:28 IST" name="browserClose" finished-at="2025-05-07T09:47:28 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_008_LogoutTest -->
+      <class name="com.qa.tests.TC_002_SearchHotelHomePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:40:15 IST" name="testDetails" finished-at="2025-05-07T09:40:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:40:15 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:40:18 IST" duration-ms="3056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:40:18 IST" name="setUp" finished-at="2025-05-07T09:40:19 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelMenuDisplayedAfterLogin()[pri:1, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:40:19 IST" name="verifySearchHotelMenuDisplayedAfterLogin" finished-at="2025-05-07T09:41:09 IST" duration-ms="50015" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61980f5e8756a660fa1891f08836b589, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64433}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64433/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61980f5e8756a660fa1891f08836b589]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#username"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61980f5e8756a660fa1891f08836b589, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64433}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64433/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61980f5e8756a660fa1891f08836b589
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.clear(Unknown Source)
+at com.qa.pages.LoginPage.enterUsername(LoginPage.java:44)
+at com.qa.tests.TC_002_SearchHotelHomePage.verifySearchHotelMenuDisplayedAfterLogin(TC_002_SearchHotelHomePage.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelMenuDisplayedAfterLogin -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_002_SearchHotelHomePage@30b19518]" started-at="2025-05-07T09:41:09 IST" name="browserClose" finished-at="2025-05-07T09:41:09 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_002_SearchHotelHomePage -->
+      <class name="com.qa.tests.TC_006_BookingConfirmationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:30 IST" name="testDetails" finished-at="2025-05-07T09:46:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:30 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:46:33 IST" duration-ms="2895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:33 IST" name="setUp" finished-at="2025-05-07T09:46:34 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderIdgeneratedOrNot()[pri:1, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:34 IST" name="verifyOrderIdgeneratedOrNot" finished-at="2025-05-07T09:46:34 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIdgeneratedOrNot -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:34 IST" name="browserClose" finished-at="2025-05-07T09:46:34 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:34 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:46:37 IST" duration-ms="2956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:37 IST" name="setUp" finished-at="2025-05-07T09:46:38 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMyItineraryNavigation()[pri:2, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:46:38 IST" name="verifyMyItineraryNavigation" finished-at="2025-05-07T09:47:28 IST" duration-ms="50038" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe52cf55bb0d14c6f8f75d4ebc1b5367, findElement {using=id, value=my_itinerary}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49288/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe52cf55bb0d14c6f8f75d4ebc1b5367]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#my_itinerary"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe52cf55bb0d14c6f8f75d4ebc1b5367, findElement {using=id, value=my_itinerary}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49288/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe52cf55bb0d14c6f8f75d4ebc1b5367
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.qa.pages.BookingConfirmationPage.clickMyItenaryButton(BookingConfirmationPage.java:35)
+at com.qa.tests.TC_006_BookingConfirmationTest.verifyMyItineraryNavigation(TC_006_BookingConfirmationTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyItineraryNavigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_006_BookingConfirmationTest@35d08e6c]" started-at="2025-05-07T09:47:28 IST" name="browserClose" finished-at="2025-05-07T09:47:28 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_006_BookingConfirmationTest -->
+      <class name="com.qa.tests.TC_001_LoginPageTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:44 IST" name="reportInitialization" finished-at="2025-05-07T09:39:44 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:44 IST" name="testDetails" finished-at="2025-05-07T09:39:44 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:44 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:39:50 IST" duration-ms="5767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginButtonVisibility()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:50 IST" name="verifyLoginButtonVisibility" finished-at="2025-05-07T09:39:50 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonVisibility -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:50 IST" name="browserClose" finished-at="2025-05-07T09:39:50 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:51 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:39:54 IST" duration-ms="2983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:54 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:39:57 IST" duration-ms="2983" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amruthapm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid data]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AdactIn.com - Search Hotel:Login successfull]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed: Login attempt with valid data failed. Actual title: Adactin.com - Search Hotel expected [AdactIn.com - Search Hotel:Login successfull] but found [Adactin.com - Search Hotel]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed: Login attempt with valid data failed. Actual title: Adactin.com - Search Hotel expected [AdactIn.com - Search Hotel:Login successfull] but found [Adactin.com - Search Hotel]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:57 IST" name="browserClose" finished-at="2025-05-07T09:39:58 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:39:58 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:40:01 IST" duration-ms="2919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:01 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:40:03 IST" duration-ms="2540" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234ffff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid username and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[
+Invalid Login details or Your Password might have expired.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed: Expected error message not found for invalid credentials. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed: Expected error message not found for invalid credentials. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:03 IST" name="browserClose" finished-at="2025-05-07T09:40:04 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:04 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:40:07 IST" duration-ms="2786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:07 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:40:09 IST" duration-ms="2295" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amruthapm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Password
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed: Expected error message not found for empty password. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed: Expected error message not found for empty password. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:09 IST" name="browserClose" finished-at="2025-05-07T09:40:09 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:09 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:40:12 IST" duration-ms="2850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method signature="verifyLoginFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:12 IST" name="verifyLoginFunctionality" data-provider="readData" finished-at="2025-05-07T09:40:15 IST" duration-ms="2288" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EmptyUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter Username
+]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed: Expected error message not found for empty username. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed: Expected error message not found for empty username. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.qa.tests.TC_001_LoginPageTest.verifyLoginFunctionality(TC_001_LoginPageTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:40:15 IST" name="browserClose" finished-at="2025-05-07T09:40:15 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:com.qa.tests.TC_001_LoginPageTest@1e8ce150]" started-at="2025-05-07T09:47:29 IST" name="reportClose" finished-at="2025-05-07T09:47:29 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- com.qa.tests.TC_001_LoginPageTest -->
+      <class name="com.qa.tests.TC_007_BookedItenaryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_007_BookedItenaryTest@53d102a2]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.qa.tests.TC_007_BookedItenaryTest -->
+      <class name="com.qa.tests.TC_004_SelectHotelPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:44:55 IST" name="testDetails" finished-at="2025-05-07T09:44:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:44:55 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:58 IST" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:44:58 IST" name="setUp" finished-at="2025-05-07T09:44:59 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyHotelSelectionWithPrefilledData()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:44:59 IST" name="VerifyHotelSelectionWithPrefilledData" finished-at="2025-05-07T09:45:02 IST" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHotelSelectionWithPrefilledData -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:02 IST" name="browserClose" finished-at="2025-05-07T09:45:03 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:03 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:45:08 IST" duration-ms="5081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:08 IST" name="setUp" finished-at="2025-05-07T09:45:08 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyRedirectionToSelectHotelPage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:08 IST" name="VerifyRedirectionToSelectHotelPage" data-provider="readData" finished-at="2025-05-07T09:45:09 IST" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[16/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19-5-2025]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/SelectHotel.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRedirectionToSelectHotelPage -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:09 IST" name="browserClose" finished-at="2025-05-07T09:45:10 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:10 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:45:12 IST" duration-ms="2890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:12 IST" name="setUp" finished-at="2025-05-07T09:45:13 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHotelSelectionFunctionality()[pri:1, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:13 IST" name="verifyHotelSelectionFunctionality" finished-at="2025-05-07T09:45:18 IST" duration-ms="4597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelSelectionFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:18 IST" name="browserClose" finished-at="2025-05-07T09:45:18 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:18 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:45:21 IST" duration-ms="2944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:21 IST" name="setUp" finished-at="2025-05-07T09:45:21 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyBookingFailsWithoutSelectingHotelRadioButton()[pri:2, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:45:21 IST" name="VerifyBookingFailsWithoutSelectingHotelRadioButton" finished-at="2025-05-07T09:46:11 IST" duration-ms="50474" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ab625d6ed606a32d918d740080ec696, findElement {using=id, value=continue}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65529/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ab625d6ed606a32d918d740080ec696]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ab625d6ed606a32d918d740080ec696, findElement {using=id, value=continue}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65529/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ab625d6ed606a32d918d740080ec696
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.qa.pages.SelectHotelPage.clickContinue(SelectHotelPage.java:86)
+at com.qa.tests.TC_004_SelectHotelPageTest.VerifyBookingFailsWithoutSelectingHotelRadioButton(TC_004_SelectHotelPageTest.java:147)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBookingFailsWithoutSelectingHotelRadioButton -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_004_SelectHotelPageTest@3b00856b]" started-at="2025-05-07T09:46:12 IST" name="browserClose" finished-at="2025-05-07T09:46:12 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_004_SelectHotelPageTest -->
+      <class name="com.qa.tests.TC_005_BookHotelPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:46:12 IST" name="testDetails" finished-at="2025-05-07T09:46:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:46:12 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:46:18 IST" duration-ms="5935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:46:18 IST" name="setUp" finished-at="2025-05-07T09:46:18 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulBookingWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:46:18 IST" name="verifySuccessfulBookingWithValidData" data-provider="readData" finished-at="2025-05-07T09:46:30 IST" duration-ms="11060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234 IIT Madras, chennai, India]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567891234560]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulBookingWithValidData -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_005_BookHotelPageTest@3016fd5e]" started-at="2025-05-07T09:46:30 IST" name="browserClose" finished-at="2025-05-07T09:46:30 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_005_BookHotelPageTest -->
+      <class name="com.qa.tests.TC_003_SearchHotelTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:39:44 IST" name="setup" finished-at="2025-05-07T09:39:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:09 IST" name="testDetails" finished-at="2025-05-07T09:41:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:09 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:41:12 IST" duration-ms="2807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:12 IST" name="setUp" finished-at="2025-05-07T09:41:14 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormRedirectionAndValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:14 IST" name="verifySearchHotelFormRedirectionAndValidation" data-provider="readData" finished-at="2025-05-07T09:41:23 IST" duration-ms="9445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[16/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/19/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Select Hotel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormRedirectionAndValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:23 IST" name="browserClose" finished-at="2025-05-07T09:41:23 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:23 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:41:26 IST" duration-ms="2960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:26 IST" name="setUp" finished-at="2025-05-07T09:41:27 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormRedirectionAndValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:27 IST" name="verifySearchHotelFormRedirectionAndValidation" data-provider="readData" finished-at="2025-05-07T09:41:30 IST" duration-ms="2732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/28/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[MadatoryFields Alone]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Select Hotel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormRedirectionAndValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:30 IST" name="browserClose" finished-at="2025-05-07T09:41:30 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:30 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:41:33 IST" duration-ms="2961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:33 IST" name="setUp" finished-at="2025-05-07T09:41:33 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormRedirectionAndValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:41:33 IST" name="verifySearchHotelFormRedirectionAndValidation" data-provider="readData" finished-at="2025-05-07T09:42:24 IST" duration-ms="51004" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[WithoutMandatoryFields
+]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please Select a Location]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.id: error-message (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64578/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78ab4f107afba58ca3cb631c114efbe1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: error-message (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64578/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78ab4f107afba58ca3cb631c114efbe1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormRedirectionAndValidation(TC_003_SearchHotelTest.java:887)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormRedirectionAndValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:24 IST" name="browserClose" finished-at="2025-05-07T09:42:24 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:24 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:42:27 IST" duration-ms="2752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:27 IST" name="setUp" finished-at="2025-05-07T09:42:27 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormRedirectionAndValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:27 IST" name="verifySearchHotelFormRedirectionAndValidation" data-provider="readData" finished-at="2025-05-07T09:42:31 IST" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Empty Fields]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please Select a Location]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormRedirectionAndValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:31 IST" name="browserClose" finished-at="2025-05-07T09:42:31 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:31 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:42:35 IST" duration-ms="4703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:35 IST" name="setUp" finished-at="2025-05-07T09:42:36 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormValidDataRedirection1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:36 IST" name="verifySearchHotelFormValidDataRedirection1" data-provider="readData" finished-at="2025-05-07T09:42:47 IST" duration-ms="10605" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[16/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/19/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Valid Data]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Select Hotel]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "SelectHotel". Current url: "https://adactinhotelapp.com/SearchHotel.php" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64677/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e96d59c009a87216398456e737e5f9bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "SelectHotel". Current url: "https://adactinhotelapp.com/SearchHotel.php" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64677}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64677/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e96d59c009a87216398456e737e5f9bc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.tests.TC_003_SearchHotelTest.verifySearchHotelFormValidDataRedirection1(TC_003_SearchHotelTest.java:781)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormValidDataRedirection1 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:47 IST" name="browserClose" finished-at="2025-05-07T09:42:47 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:47 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:42:50 IST" duration-ms="2821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:50 IST" name="setUp" finished-at="2025-05-07T09:42:51 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormValidDataRedirection1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:51 IST" name="verifySearchHotelFormValidDataRedirection1" data-provider="readData" finished-at="2025-05-07T09:42:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21/05/2025]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5/28/25]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[MadatoryFields Alone]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Select Hotel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormValidDataRedirection1 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:51 IST" name="browserClose" finished-at="2025-05-07T09:42:51 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:51 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:42:53 IST" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:53 IST" name="setUp" finished-at="2025-05-07T09:42:54 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormValidDataRedirection1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:54 IST" name="verifySearchHotelFormValidDataRedirection1" data-provider="readData" finished-at="2025-05-07T09:42:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[WithoutMandatoryFields
+]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please Select a Location]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormValidDataRedirection1 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:54 IST" name="browserClose" finished-at="2025-05-07T09:42:54 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:54 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:42:57 IST" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:57 IST" name="setUp" finished-at="2025-05-07T09:42:58 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormValidDataRedirection1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:58 IST" name="verifySearchHotelFormValidDataRedirection1" data-provider="readData" finished-at="2025-05-07T09:42:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Empty Fields]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please Select a Location]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormValidDataRedirection1 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:58 IST" name="browserClose" finished-at="2025-05-07T09:42:58 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:42:58 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:01 IST" duration-ms="3093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:01 IST" name="setUp" finished-at="2025-05-07T09:43:01 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelMenuNaviagtion()[pri:1, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:01 IST" name="verifySearchHotelMenuNaviagtion" finished-at="2025-05-07T09:43:05 IST" duration-ms="3484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelMenuNaviagtion -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:05 IST" name="browserClose" finished-at="2025-05-07T09:43:05 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:05 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:08 IST" duration-ms="2976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:08 IST" name="setUp" finished-at="2025-05-07T09:43:09 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchHotelFormElementsPresence()[pri:2, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:09 IST" name="verifySearchHotelFormElementsPresence" finished-at="2025-05-07T09:43:09 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchHotelFormElementsPresence -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:09 IST" name="browserClose" finished-at="2025-05-07T09:43:09 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:09 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:12 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:12 IST" name="setUp" finished-at="2025-05-07T09:43:13 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFieldDefaultValues()[pri:3, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:13 IST" name="verifyFieldDefaultValues" finished-at="2025-05-07T09:43:13 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldDefaultValues -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:13 IST" name="browserClose" finished-at="2025-05-07T09:43:14 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:14 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:17 IST" duration-ms="3012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:17 IST" name="setUp" finished-at="2025-05-07T09:43:17 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMandatoryFieldAsterisks()[pri:4, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:17 IST" name="verifyMandatoryFieldAsterisks" finished-at="2025-05-07T09:43:18 IST" duration-ms="632" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ 'Adults per Room' field is not marked as mandatory. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ 'Adults per Room' field is not marked as mandatory. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.qa.tests.TC_003_SearchHotelTest.verifyMandatoryFieldAsterisks(TC_003_SearchHotelTest.java:218)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldAsterisks -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:18 IST" name="browserClose" finished-at="2025-05-07T09:43:18 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:18 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:22 IST" duration-ms="4307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:22 IST" name="setUp" finished-at="2025-05-07T09:43:23 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLocationDropdown()[pri:5, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:23 IST" name="testLocationDropdown" finished-at="2025-05-07T09:43:23 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLocationDropdown -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:23 IST" name="browserClose" finished-at="2025-05-07T09:43:24 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:24 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:26 IST" duration-ms="2764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:26 IST" name="setUp" finished-at="2025-05-07T09:43:27 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLocationDropdownPlaceholderValue()[pri:6, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:27 IST" name="verifyLocationDropdownPlaceholderValue" finished-at="2025-05-07T09:43:27 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationDropdownPlaceholderValue -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:27 IST" name="browserClose" finished-at="2025-05-07T09:43:27 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:27 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:30 IST" duration-ms="2757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:30 IST" name="setUp" finished-at="2025-05-07T09:43:30 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTotalNumberOfHotelsInDropdown()[pri:7, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:30 IST" name="verifyTotalNumberOfHotelsInDropdown" finished-at="2025-05-07T09:43:31 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalNumberOfHotelsInDropdown -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:31 IST" name="browserClose" finished-at="2025-05-07T09:43:31 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:31 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:34 IST" duration-ms="2803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:34 IST" name="setUp" finished-at="2025-05-07T09:43:34 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHotelDropdownOptions()[pri:8, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:34 IST" name="verifyHotelDropdownOptions" finished-at="2025-05-07T09:43:35 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelDropdownOptions -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:35 IST" name="browserClose" finished-at="2025-05-07T09:43:35 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:35 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:38 IST" duration-ms="2831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:38 IST" name="setUp" finished-at="2025-05-07T09:43:38 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHotelDropdownOptionsDisplayAndSelectability()[pri:9, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:38 IST" name="verifyHotelDropdownOptionsDisplayAndSelectability" finished-at="2025-05-07T09:43:39 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHotelDropdownOptionsDisplayAndSelectability -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:39 IST" name="browserClose" finished-at="2025-05-07T09:43:39 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:39 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:42 IST" duration-ms="2841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:42 IST" name="setUp" finished-at="2025-05-07T09:43:42 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySelectedHotelValue()[pri:10, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:42 IST" name="verifySelectedHotelValue" finished-at="2025-05-07T09:43:43 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedHotelValue -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:43 IST" name="browserClose" finished-at="2025-05-07T09:43:43 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:43 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:46 IST" duration-ms="3119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:46 IST" name="setUp" finished-at="2025-05-07T09:43:46 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRoomTypeDropdownIsPresent()[pri:11, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:46 IST" name="verifyRoomTypeDropdownIsPresent" finished-at="2025-05-07T09:43:49 IST" duration-ms="2315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRoomTypeDropdownIsPresent -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:49 IST" name="browserClose" finished-at="2025-05-07T09:43:49 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:49 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:52 IST" duration-ms="3477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:52 IST" name="setUp" finished-at="2025-05-07T09:43:53 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySelectedRoomTypeDropdown()[pri:12, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:53 IST" name="verifySelectedRoomTypeDropdown" finished-at="2025-05-07T09:43:54 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedRoomTypeDropdown -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:54 IST" name="browserClose" finished-at="2025-05-07T09:43:54 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:54 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:43:57 IST" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:57 IST" name="setUp" finished-at="2025-05-07T09:43:57 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectRoomTypeAndVerify()[pri:13, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:57 IST" name="selectRoomTypeAndVerify" finished-at="2025-05-07T09:43:57 IST" duration-ms="360" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Failed to select 'Deluxe' room type. expected [Deluxe] but found [Super Deluxe]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Failed to select 'Deluxe' room type. expected [Deluxe] but found [Super Deluxe]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.qa.tests.TC_003_SearchHotelTest.selectRoomTypeAndVerify(TC_003_SearchHotelTest.java:449)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRoomTypeAndVerify -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:58 IST" name="browserClose" finished-at="2025-05-07T09:43:58 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:43:58 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:01 IST" duration-ms="2820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:01 IST" name="setUp" finished-at="2025-05-07T09:44:01 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllRoomTypesListed()[pri:14, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:01 IST" name="verifyAllRoomTypesListed" finished-at="2025-05-07T09:44:02 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllRoomTypesListed -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:02 IST" name="browserClose" finished-at="2025-05-07T09:44:02 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:02 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:05 IST" duration-ms="3099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:05 IST" name="setUp" finished-at="2025-05-07T09:44:05 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckInDateDisplayedClickedAndHeld()[pri:15, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:05 IST" name="verifyCheckInDateDisplayedClickedAndHeld" finished-at="2025-05-07T09:44:10 IST" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckInDateDisplayedClickedAndHeld -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:10 IST" name="browserClose" finished-at="2025-05-07T09:44:10 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:10 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:13 IST" duration-ms="2788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:13 IST" name="setUp" finished-at="2025-05-07T09:44:13 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectValidCheckInDate()[pri:16, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:13 IST" name="selectValidCheckInDate" finished-at="2025-05-07T09:44:15 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectValidCheckInDate -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:15 IST" name="browserClose" finished-at="2025-05-07T09:44:15 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:15 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:18 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:18 IST" name="setUp" finished-at="2025-05-07T09:44:18 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyTOselectPastCheckInDate()[pri:18, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:18 IST" name="VerifyTOselectPastCheckInDate" finished-at="2025-05-07T09:44:24 IST" duration-ms="5310" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed: User was redirected even with an invalid check-in date.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed: User was redirected even with an invalid check-in date.
+at org.testng.Assert.fail(Assert.java:111)
+at com.qa.tests.TC_003_SearchHotelTest.VerifyTOselectPastCheckInDate(TC_003_SearchHotelTest.java:580)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTOselectPastCheckInDate -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:24 IST" name="browserClose" finished-at="2025-05-07T09:44:24 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:24 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:27 IST" duration-ms="3075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:27 IST" name="setUp" finished-at="2025-05-07T09:44:28 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyToSelectValidCheckInDate()[pri:19, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:28 IST" name="VerifyToSelectValidCheckInDate" finished-at="2025-05-07T09:44:33 IST" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToSelectValidCheckInDate -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:33 IST" name="browserClose" finished-at="2025-05-07T09:44:33 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:33 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:37 IST" duration-ms="4594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:37 IST" name="setUp" finished-at="2025-05-07T09:44:38 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckOutDateDisplayedClickedAndHeld()[pri:20, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:38 IST" name="verifyCheckOutDateDisplayedClickedAndHeld" finished-at="2025-05-07T09:44:39 IST" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutDateDisplayedClickedAndHeld -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:39 IST" name="browserClose" finished-at="2025-05-07T09:44:40 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:40 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:42 IST" duration-ms="2849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:42 IST" name="setUp" finished-at="2025-05-07T09:44:43 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyErrorForPastCheckOutDate()[pri:21, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:43 IST" name="verifyErrorForPastCheckOutDate" finished-at="2025-05-07T09:44:48 IST" duration-ms="5206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorForPastCheckOutDate -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:48 IST" name="browserClose" finished-at="2025-05-07T09:44:48 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:48 IST" name="launchingAndLoadingURL" finished-at="2025-05-07T09:44:51 IST" duration-ms="3027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:51 IST" name="setUp" finished-at="2025-05-07T09:44:52 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyResetButtonFunctionality()[pri:22, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:52 IST" name="VerifyResetButtonFunctionality" finished-at="2025-05-07T09:44:55 IST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResetButtonFunctionality -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.tests.TC_003_SearchHotelTest@305a0c5f]" started-at="2025-05-07T09:44:55 IST" name="browserClose" finished-at="2025-05-07T09:44:55 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.qa.tests.TC_003_SearchHotelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

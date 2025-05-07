@@ -333,36 +333,7 @@ public class TC_003_SearchHotelTest extends ProjectSpecificationMethods {
 		}
 	}
 
-	/*
-	 * @Test(priority = 10) public void verifySelectedHotelValue() { SearchHotelPage
-	 * searchHotelPage = new SearchHotelPage(driver); test =
-	 * extent.createTest("verifySelectedHotelValue");
-	 * 
-	 * // Locate the dropdown and click it WebElement hotelDropdown =
-	 * driver.findElement(By.id("hotels")); Select select = new
-	 * Select(hotelDropdown);
-	 * 
-	 * // Get the options and ensure at least 2 exist List<WebElement> options =
-	 * select.getOptions(); if (options.size() < 2) { test.
-	 * fail("❌ Not enough options in the hotel dropdown to select the second one.");
-	 * Assert.fail("Not enough hotel options."); }
-	 * 
-	 * // Select the second option (index 1) String expectedHotel =
-	 * options.get(1).getText(); select.selectByIndex(1);
-	 * test.info("Selected hotel from dropdown: " + expectedHotel);
-	 * 
-	 * // Fetch the selected option String selectedHotel = new
-	 * Select(driver.findElement(By.id("hotels"))).getFirstSelectedOption().getText(
-	 * ); System.out.println("Selected hotel after selection: " + selectedHotel);
-	 * 
-	 * // Assert try { Assert.assertEquals(selectedHotel, expectedHotel,
-	 * "❌ Selected hotel value is incorrect.");
-	 * test.pass("✅ Selected hotel value is correct: " + selectedHotel); } catch
-	 * (AssertionError e) { test.fail("❌ Selected hotel value is incorrect: " +
-	 * e.getMessage()); throw e; } }
-	 * 
-	 */
-
+	
 	@Test(priority = 10)
 	public void verifySelectedHotelValue() {
 		SearchHotelPage searchHotelPage = new SearchHotelPage(driver);
@@ -552,7 +523,7 @@ public class TC_003_SearchHotelTest extends ProjectSpecificationMethods {
 	}
 
 	@Test(priority = 16)
-	public void selectValidCheckInDate() {
+	public void selectValidCheckInDate() throws InterruptedException {
 		// Valid date (future date)
 		String validDate = "2025-05-07";
 
@@ -567,71 +538,7 @@ public class TC_003_SearchHotelTest extends ProjectSpecificationMethods {
 		System.out.println("✅ Valid check-in date selected: " + validDate);
 	}
 	
-	
-	/*@Test(priority = 18)
-	public void VerifyTOselectPastCheckInDate() throws Exception {
-	    test = extent.createTest("Verify Error for Past Check-In Date");
 
-	    SearchHotelPage searchHotelPage = new SearchHotelPage(driver);
-
-	    try {
-	        // Fill all mandatory fields
-	        searchHotelPage.selectLocation("Sydney");
-	        searchHotelPage.selectHotel("Hotel Sunshine");
-	        searchHotelPage.selectRoomType("Deluxe");
-	        searchHotelPage.selectNumberOfRooms("1 - One");
-	        searchHotelPage.enterCheckInDate("2020-05-07"); // Past date
-	        searchHotelPage.enterCheckOutDate("2025-05-10"); // Future date
-	        searchHotelPage.selectAdultsPerRoom("2 - Two");
-	        searchHotelPage.selectChildrenPerRoom("1 - One");
-
-	        test.info("Filled all mandatory fields with valid data and invalid check-in date.");
-	        System.out.println("✅ Filled all mandatory fields with valid data and invalid check-in date.");
-
-	        // Capture current URL before clicking search
-	        String currentUrlBefore = driver.getCurrentUrl();
-
-	        // Submit the form
-	        searchHotelPage.clickSearchButton();
-
-	        // Wait briefly for validation to trigger
-	        Thread.sleep(2000);
-
-	        // Check if redirected
-	        String currentUrlAfter = driver.getCurrentUrl();
-
-	        if (!currentUrlAfter.equals(currentUrlBefore)) {
-	            System.out.println("❌ Redirection occurred even with invalid check-in date.");
-	            System.out.println("Expected URL: " + currentUrlBefore);
-	            System.out.println("Actual URL: " + currentUrlAfter);
-	            test.fail("❌ Test Failed: Redirection occurred even with invalid check-in date.");
-	        } else {
-	            System.out.println("✅ User stayed on the same page (no redirection).");
-	            test.pass("✅ User was not redirected with invalid check-in date.");
-	        }
-
-	        // Check for error message visibility
-	        String errorMessage = searchHotelPage.getCheckInDateErrorMessage();
-
-	        if (errorMessage.contains("Invalid check-in date")) {
-	            System.out.println("✅ Error message displayed for past check-in date: " + errorMessage);
-	            test.pass("✅ Correct error message displayed: " + errorMessage);
-	        } else {
-	            System.out.println("❌ Expected error message not displayed.");
-	            test.fail("❌ Expected error message not displayed.");
-	        }
-
-	    } catch (AssertionError e) {
-	        test.fail("❌ Validation failed: " + e.getMessage());
-	        System.out.println("❌ Validation failed: " + e.getMessage());
-	        throw e;
-	    } catch (Exception e) {
-	        test.fail("❌ Test failed with exception: " + e.getMessage());
-	        System.out.println("❌ Test failed with exception: " + e.getMessage());
-	        throw e;
-	    }
-	}
-*/
 	
 	@Test(priority = 18)
 	public void VerifyTOselectPastCheckInDate() throws Exception {
@@ -786,6 +693,8 @@ public class TC_003_SearchHotelTest extends ProjectSpecificationMethods {
 	        e.printStackTrace();
 	    }
 	}
+	
+	
 	@Test(priority = 21)
 	public void verifyErrorForPastCheckOutDate() throws Exception {
 	    test = extent.createTest("Verify Error for Past Check-Out Date");
@@ -840,5 +749,256 @@ public class TC_003_SearchHotelTest extends ProjectSpecificationMethods {
 	        throw e;
 	    }
 	}
+	
+	
+	
+	// Test method that uses the DataProvider
+		@Test(dataProvider = "readData")
+		public void verifySearchHotelFormValidDataRedirection1(String Location, String Hotels, String RoomType, String NoRooms,String CheckInDate, String CheckOutDate , String Adults , String Childrens , String  TestType ,String ExpectedMessage) throws Exception {
+			// Only run the test if TestType is "Valid Data"
+		    if (!TestType.equalsIgnoreCase("Valid Data")) {
+		        // Skip the test if TestType is not "Valid Data"
+		        System.out.println("🔶 Skipping test for TestType: " + TestType);
+		        test.skip("🔶 Skipped test for TestType: " + TestType);
+		        return;  // Return early to skip the rest of the test logic (e.g., browser interaction)
+		    }
 
+		    try {
+		        // Start the ExtentTest
+		        test = extent.createTest("Verify Valid Data - Search");
+
+		        // Create an instance of SearchHotelPage (replace with actual page object)
+		        SearchHotelPage searchHotelPage = new SearchHotelPage(driver);
+
+		        // Capture the current URL before clicking the search button
+		        String currentUrlBefore = driver.getCurrentUrl();
+
+		        // Submit the form
+		        searchHotelPage.clickSearchButton();
+
+		        // Use WebDriverWait to wait for the URL change (Updated for Selenium 4.x)
+		        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		        wait.until(ExpectedConditions.urlContains("SelectHotel"));
+
+		        // Capture the current URL after the search
+		        String currentUrlAfter = driver.getCurrentUrl();
+
+		        // Validation: Check if the URL changed and contains "SelectHotel"
+		        if (!currentUrlBefore.equals(currentUrlAfter) && currentUrlAfter.contains("SelectHotel")) {
+		            System.out.println("✅ User redirected to next page with valid data.");
+		            test.pass("✅ Successfully redirected to SelectHotel page.");
+		        } else {
+		            System.out.println("❌ User was not redirected with valid data.");
+		            test.fail("❌ Redirection failed with valid check-in date.");
+		            Assert.fail("No redirection occurred with valid check-in date.");
+		        }
+		    } catch (Exception e) {
+		        test.fail("❌ Test failed due to exception: " + e.getMessage());
+		        System.out.println("❌ Test failed with exception: " + e.getMessage());
+		        throw e;
+		    }
+		}
+		 
+		@Test(dataProvider = "readData")
+		public void verifySearchHotelFormRedirectionAndValidation(String Location, String Hotels, String RoomType, 
+		                                                          String NoRooms, String CheckInDate, String CheckOutDate, 
+		                                                          String Adults, String Childrens, String TestType, 
+		                                                          String ExpectedMessage) throws Exception {
+		    test = extent.createTest("Search Hotel Test - " + TestType);
+
+		    try {
+		        SearchHotelPage searchHotelPage = new SearchHotelPage(driver);
+		        searchHotelPage.enterSearchDetails(Location, Hotels, RoomType, NoRooms, CheckInDate, CheckOutDate, Adults, Childrens);
+
+		        switch (TestType.trim().toLowerCase()) {
+		        
+		            case "valid data":
+			            test = extent.createTest(" Verify With Valid data Fields - " + TestType);
+
+		                System.out.println("🔹 Running Valid Data test");
+		                Thread.sleep(3000);
+		                String currentUrlBefore = driver.getCurrentUrl();
+		                searchHotelPage.clickSearchButton();
+
+		                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		                wait.until(ExpectedConditions.urlContains("SelectHotel"));
+
+		                String currentUrlAfter = driver.getCurrentUrl();
+		                if (!currentUrlBefore.equals(currentUrlAfter) && currentUrlAfter.contains("SelectHotel")) {
+		                    test.pass("✅ Redirected to SelectHotel page as expected.");
+		           
+		                    System.out.println("✅ Test PASSED: Verified redirection with valid data (SelectHotel page loaded).");
+Thread.sleep(3000);
+		                } else {
+		                    test.fail("❌ Redirection failed with valid data.");
+		                    Assert.fail("Expected redirection did not happen.");
+		                }
+		                break;
+
+		            case "mandatoryfields alone":
+		            	
+			            test = extent.createTest(" Verify With  Mandatory Fields Alone- " + TestType);
+
+		                System.out.println("🔶 Testing Mandatory Fields Alone");
+
+		                // Capture the current URL before clicking the search button to check if the page will navigate
+		                String currentUrlBefore1 = driver.getCurrentUrl();
+
+		                // Click the search button
+		                searchHotelPage.clickSearchButton();
+
+		                // Use WebDriverWait to wait for the URL change, indicating navigation to the SelectHotel page
+		                WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		                wait1.until(ExpectedConditions.urlContains("SelectHotel"));
+
+		                // Capture the URL after the search to check if the navigation occurred
+		                String currentUrlAfter1 = driver.getCurrentUrl();
+
+		                // Check if the page navigated to the "SelectHotel" page (or stayed on the same page if error occurs)
+		                if (!currentUrlBefore1.equals(currentUrlAfter1) && currentUrlAfter1.contains("SelectHotel")) {
+		                    // This indicates that the page navigated to the SelectHotel page, which means the test passed
+		                    test.pass("✅ Successfully redirected to SelectHotel page.");
+		                    System.out.println("✅ Test PASSED: Verified mandatory fields alone redirected to SelectHotel page.");
+
+		                } else {
+		                    // If the page hasn't navigated to SelectHotel, validate the error message for mandatory fields
+		                    System.out.println("❌ Page did not navigate. Checking for mandatory field validation.");
+
+		                    // Get the error message for mandatory fields validation
+		                    String errorMsg = searchHotelPage.getErrorMessage();  // Assume this returns the validation message
+
+		                    // Assert the error message is shown as expected
+		                    Assert.assertTrue(errorMsg.contains(ExpectedMessage), "Expected error message not shown.");
+		                    
+		                    // Log the result in the test report
+		                    test.pass("✅ Correct error shown for mandatory fields only.");
+		                }
+		                break;
+
+		            case "withoutmandatoryfields":
+		                test = extent.createTest("Verify Without Mandatory Fields - " + TestType);
+		                System.out.println("🔶 Testing Without Mandatory Fields");
+
+		                String currentUrlBefore5 = driver.getCurrentUrl();
+		                searchHotelPage.clickSearchButton();
+
+		                // Wait for the error message and check if the URL remains the same
+		                WebDriverWait wait5 = new WebDriverWait(driver, Duration.ofSeconds(40));
+		                wait5.until(ExpectedConditions.visibilityOfElementLocated(By.id("error-message"))); // Update locator
+
+		                if (driver.getCurrentUrl().equals(currentUrlBefore5)) {
+		                    System.out.println("✅ No navigation occurred.");
+		                    String errorMsg = searchHotelPage.getErrorMessage();
+		                    Assert.assertTrue(errorMsg.contains(ExpectedMessage), "Expected error message not shown.");
+		                    test.pass("✅ Correct error shown for missing mandatory fields.");
+		                } else {
+		                    System.out.println("❌ Unexpected navigation.");
+		                    test.fail("❌ Test failed: Page navigated unexpectedly.");
+		                    Assert.fail("Unexpected navigation occurred.");
+		                }
+		                break;
+
+		            case "Empty Fields":
+		            // Start the ExtentTest for every execution, regardless of TestType
+		            test = extent.createTest("Verify Empty Fields Validation - " + TestType);
+
+		            try {
+		                if (TestType.equalsIgnoreCase("Empty Fields")) {
+		                    System.out.println("🔶 Testing Empty Fields");
+
+		                    // Create an instance of SearchHotelPage (replace with actual page object)
+		                  //  SearchHotelPage searchHotelPage = new SearchHotelPage(driver);
+
+		                    // Capture the current URL before clicking the search button to check if the page will navigate
+		                    String currentUrlBefore4 = driver.getCurrentUrl();
+
+		                    // Click the search button with empty fields
+		                    searchHotelPage.clickSearchButton();
+
+		                    // Wait for the page to remain on the same URL (no navigation)
+		                    WebDriverWait wait4 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		                    wait4.until(ExpectedConditions.urlToBe(currentUrlBefore4));
+
+		                    // Capture the current URL after the search to check if the navigation happened or not
+		                    String currentUrlAfter4 = driver.getCurrentUrl();
+
+		                    // Assert that the page did not navigate (it should be the same URL)
+		                    if (currentUrlBefore4.equals(currentUrlAfter4)) {
+		                        test.pass("✅ Correctly stayed on the current page due to empty fields.");
+		                        test.pass("✅ Correct error shown for empty fields.");
+		                        System.out.println("✅ No navigation occurred as expected.");
+
+		                        System.out.println("✅ Test PASSED: Verified validation message for empty form submission.");
+
+		                    } else {
+		                        System.out.println("❌ Page unexpectedly navigated. Test failed.");
+		                        test.fail("❌ Test failed. Page navigated when mandatory fields were missing.");
+		                        Assert.fail("Unexpected navigation occurred when fields were empty.");
+		                    }
+
+		                    // Get the error message for empty fields validation
+		                    String errorMsg = searchHotelPage.getErrorMessage(); // Get error message from the page
+
+		                    // Validate that the expected error message is displayed
+		                    Assert.assertTrue(errorMsg.contains(ExpectedMessage), "Expected error message not shown.");
+		                    test.pass("✅ Correct error shown for empty fields.");
+
+		                }
+
+		            } catch (Exception e) {
+		                test.fail("❌ Test failed due to exception: " + e.getMessage());
+		                System.out.println("❌ Test failed with exception: " + e.getMessage());
+		                throw e;
+		            }
+		        
+
+		            default:
+		                System.out.println("⚠️ Unhandled TestType: " + TestType);
+		                test.skip("⚠️ Skipped: Unrecognized TestType - " + TestType);
+		        }
+
+		    } catch (Exception e) {
+		        test.fail("❌ Test failed due to exception: " + e.getMessage());
+		        throw e;
+		    }
+		}
+
+		  @Test(priority=22)
+		    public void VerifyResetButtonFunctionality() throws InterruptedException {
+			  
+		        System.out.println("VerifyResetButtonFunctionality ---");
+
+		        // Step 1 & 2: Select values
+		        searchHotelPage.selectLocation("Sydney");
+		        searchHotelPage.selectHotel("Hotel Creek");
+		        System.out.println("Selected Location = Sydney");
+		        System.out.println("Selected Hotel = Hotel Creek");
+
+		        // Step 3: Click Reset
+		        searchHotelPage.clickReset();
+		        System.out.println("Clicked Reset button");
+Thread.sleep(3000);
+		        // Step 4: Validate defaults
+		        String locationValue = searchHotelPage.getSelectedLocation();
+		        String hotelValue = searchHotelPage.getSelectedHotel();
+
+		        if (locationValue.equals("- Select Location -")) {
+		            System.out.println("✅ Location reset to default: " + locationValue);
+		        } else {
+		            System.out.println("❌ Location after reset: " + locationValue);
+		            Thread.sleep(4000);
+		        }
+
+		        if (hotelValue.equals("- Select Hotel -")) {
+		            System.out.println("✅ Hotel reset to default: " + hotelValue);
+		        } else {
+		            System.out.println("❌ Hotel after reset: " + hotelValue);
+		        }
+
+		        Assert.assertEquals(locationValue, "- Select Location -", "Location dropdown not reset.");
+		        Assert.assertEquals(hotelValue, "- Select Hotel -", "Hotel dropdown not reset.");
+
+		        System.out.println("✅ Test Case PASSED");
+		    }
+		
 }

@@ -19,11 +19,11 @@ public class TC_001_LoginPageTest extends ProjectSpecificationMethods {
         testcategory = "Regression";
     }
     
-    // Constructor to initialize the LoginPage
+   /* // Constructor to initialize the LoginPage
     public  TC_001_LoginPageTest() {
     	System.out.println("TC_001:LoginPage testcases are executing ");
     LoginPage    loginPage = new LoginPage(driver); // Pass the driver to LoginPage
-    }
+    }*/
 
     @Test
     public void verifyLoginButtonVisibility() {
